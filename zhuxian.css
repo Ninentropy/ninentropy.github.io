@@ -5,134 +5,87 @@
     padding: 0;
 }
 
-body {
-    height: 100vh;
-    background: url(image/bg.jpg) no-repeat;
-    background-size: cover;
+.suoyin1 {
+    width: 1500px;
+    height: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: row ;
+    align-items: flex-start;
+    justify-content: center;
+    
 }
 
+.suoyin1 > h1 {
+    width: 1100px;
+    height: 90px;
+    font-size: 60px;
+}
+
+
 .box {
-    width: 350px;
-    height: 350px;
+    width: 1500px;
+    height: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.box > .school {
+    width: 550px;
+    height: 1800px;
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     border-bottom: 1px solid rgba(255,255,255,0.3);
     border-right: 1px solid rgba(255,255,255,0.3);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1px);
     background: rgba(50,50,50,0.2);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-}
 
-
-.box > h2 {
-    color: rgba(255,255,255,0.9);
-    margin-bottom: 30px;
-}
-
-.box .input-box {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
-
-.box .input-box label {
-    font-size: 13px;
-    color: rgba(255,255,255,0.9);
-    margin-bottom: 5px;
-}
-
-.box .input-box input {
-    letter-spacing: 1px;
-    font-size: 14px;
-    box-sizing: border-box;
-    width: 250px;
-    height: 35px;
-    border-radius: 5px;
-    border: 1px solid rgba(255,255,255,0.5);
-    background: rgba(255,255,255,0.2);
-    outline: none;
-    padding: 0 12px;
-    color: rgba(255,255,255,0.9);
-    transition: 0.2s;
-}
-
-.box .input-box input:focus {
-    border: 1px solid rgba(255,255,255,0.8);
-}
-
-.box .btn-box {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.box .btn-box > a {
-    outline: none;
-    display: block;
-    width: 250px;
-    text-align: end;
-    text-decoration: none;
-    font-size: 13px;
-    color: rgba(255,255,255,0.9);
-}
-
-.box .btn-box > a:hover {
-    color: rgba(255,255,255,1);
-}
-
-.box .btn-box > div {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box .btn-box > div > a > button {
-    outline: none;
-    margin-top: 10px;
-    display: block;
-    font-size: 14px;
-    border-radius: 5px;
-    transition: 0.2s;
-}
-
-.box .btn-box > div > a > button:nth-of-type(1) {
-    width: 250px;
-    height: 35px;
-    color: rgba(255,255,255,0.9);
-    border: 1px solid rgba(192, 119, 91, 0.7);
-    background: rgba(192, 119, 91, 0.5);
-}
-
-
-.box .btn-box > div > a > button:hover {
-    border: 1px solid rgba(251, 128, 71, 0.7);
-    background: rgba(251, 128, 71, 0.5);
-}
-
-.bottom {
-    width: 600px;
-    height: 250px;
     
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+}
+.box > .school > p {
+    font-style: oblique;
+    margin-bottom: 15px;
 }
 
-.bottom > h4 {
-    color: rgba(255,255,255,0.9);
-    margin-bottom: 30px;
+.box > .school > h1 {
+    font: size 140px;
+    align-items: flex-start;
+}
+
+.box > .school > h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+.box > .school > h3 {
+    font-style: oblique;
+    
+
+}
+
+.box > .school > h4 {
+    width: 500px;
+    margin-bottom: 15px;
+    font-size: large;
+
+}
+
+.box > .school > h5 {
+    margin-bottom: 15px;
+    font-size: large;
+
+}
+
+
+.box > .block1 {
+    width: 540px;
+    height: 1800px;
 }
