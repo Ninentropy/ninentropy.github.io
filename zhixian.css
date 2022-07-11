@@ -35,7 +35,6 @@
 
 .box > .Now > .Now1floor {
     width: 320px;
-    height: 80px;
     list-style:none;
     display: flex;
     flex-direction: row;
@@ -44,7 +43,6 @@
 
 .box > .Now > .Now2floor {
     width: 320px;
-    height:160px;
     list-style:none;
     display: flex;
     flex-direction: row;
@@ -53,7 +51,6 @@
 
 .box > .Now > .Now3floor {
     width: 320px;
-    height:160px;
     list-style:none;
     display: flex;
     flex-direction: row;
@@ -62,7 +59,6 @@
 
 .box > .Now > .Now4floor {
     width: 320px;
-    height 100px;
     list-style:none;
     display: flex;
     flex-direction: row;
